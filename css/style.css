@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.flex-social-connect{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0 10px 0;
+    
+}
+.contact{
+    display: flex;
+}
+.contact a{
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    color: hsl(60deg 1% 26%);
+}
+.mobile{
+    margin-left: 20px;
+}
+.contact i{
+    font-size: 16px;
+    color: rgb(141, 28, 247);
+}
+.social-media a{
+    text-decoration: none;
+    margin-left: 8px;
+}
+.social-media i{
+    font-size: 14px;
+    color: hsl(211deg 40% 44%);
+}
+.logo a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(208deg 40% 28%);
+}
+.title{
+    box-shadow: 0 0 5px rgb(226, 208, 208);
+}
+.quick-access{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    
+}
+.navigation-list >ul >li{
+    display: inline-block;
+    padding: 4px 10px;
+}
+.navigation-list  ul  li  a{
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: hsl(209deg 33% 33%);
+}
+.navigation-list> ul> li:focus{
+    color: rgb(10, 10, 233);
+}
+.navigation-list >ul >li:last-child{
+    background-color: hsl(208deg 79% 45%);
+    padding: 7px 20px;
+    border-radius: 20px;
+    margin-top: -8px;
+}
+.last{
+    color: white!important;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown .nav-bar{
+    position: absolute;
+    top: 25px;
+    left: -19px;
+    right: 0;
+    width: 150px;
+    opacity: 0;
+    visibility: hidden;
+    list-style: none;
+    box-shadow: 0 0 3px black;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.dropdown .nav-bar li{
+    padding: 7px 0 5px 0;
+}
+.dropdown:hover .nav-bar{
+    opacity: 1;
+    visibility: visible;
+    
+}
